@@ -1,0 +1,7 @@
+public enum Progress {
+    NEW(),
+    EXECUTING(),
+    EXECUTING_REQUIRES_ATTENTION(),
+    FINISHED_SUCCESSFULLY(),
+    FINISHED_WITH_ERROR()
+}
